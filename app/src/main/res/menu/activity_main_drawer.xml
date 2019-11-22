@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Items">
+        <menu>
+            <item
+                android:id="@+id/nav_inventory"
+                android:icon="@mipmap/inventory"
+                android:title="Inventory" />
+            <item
+                android:id="@+id/nav_food_menu"
+                android:icon="@mipmap/food_menu"
+                android:title="Menu" />
+            <item
+                android:id="@+id/nav_employee"
+                android:icon="@mipmap/employee"
+                android:title="Employee" />
+            <item
+                android:id="@+id/nav_table"
+                android:icon="@mipmap/table"
+                android:title="Table" />
+            <item
+                android:id="@+id/nav_tablet"
+                android:icon="@mipmap/tablet"
+                android:title="Tablet" />
+        </menu>
+    </item>
+
+    <!--<group android:checkableBehavior="single">-->
+        <!--<item-->
+            <!--android:id="@+id/nav_camera"-->
+            <!--android:icon="@mipmap/Inventory"-->
+            <!--android:title="Inventory" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_gallery"-->
+            <!--android:icon="@mipmap/food_menu"-->
+            <!--android:title="Menu" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_slideshow"-->
+            <!--android:icon="@mipmap/employee"-->
+            <!--android:title="Employee" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_manage"-->
+            <!--android:icon="@mipmap/table"-->
+            <!--android:title="Table" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_share"-->
+            <!--android:icon="@mipmap/tablet"-->
+            <!--android:title="Tablet" />-->
+    <!--</group>-->
+
+    <item android:title="Association">
+        <menu>
+            <item
+                android:id="@+id/nav_assignment"
+                android:icon="@mipmap/assignment"
+                android:title="Assignment" />
+        </menu>
+    </item>
+
+</menu>

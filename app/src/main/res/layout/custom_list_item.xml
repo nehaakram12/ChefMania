@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="5dip" >
+
+    <LinearLayout
+        android:id="@+id/list_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="5">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:src="@mipmap/person_grey"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:weightSum="5">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="Employee Name"
+                android:textStyle="bold"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="Employee's Post"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/editbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+
+            android:text="Edit"/>
+
+        <Button
+            android:id="@+id/deletebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"/>
+
+    </LinearLayout>
+</RelativeLayout>

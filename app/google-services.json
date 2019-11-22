@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1055800202441",
+    "firebase_url": "https://se-project-9619d.firebaseio.com",
+    "project_id": "se-project-9619d",
+    "storage_bucket": "se-project-9619d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055800202441:android:55b01ef68fe4a7dd",
+        "android_client_info": {
+          "package_name": "com.app.chefmania.chefmania"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055800202441-0r4gemph9ss693qkl5hfn9gp0je0l9lh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.chefmania.chefmania",
+            "certificate_hash": "65dfe94dd6e1d77fd7f46d279f50051e642b3c38"
+          }
+        },
+        {
+          "client_id": "1055800202441-3p02l9c7hfs7n7gvrpgf0ur1var0tj9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpXM-y1LFhxPcs6xmzU3AFrZjD0GWILkU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055800202441-3p02l9c7hfs7n7gvrpgf0ur1var0tj9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
